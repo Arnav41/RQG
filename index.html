@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>RandomQuoteGenerator</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <title>Random Quote Generator</title>
+    
 </head>
 <body>
     <div id="Quote" class="Quote">
         <div class="qote" id="qote">
-            <p id="tatesays">Ideas are the beginning points of all fortunes.Ideas are the beginning points of all fortunes.Ideas are the beginning points of all fortunes.Ideas are the beginning points of all fortunes.Ideas are the beginning points of all fortunes.Ideas are the beginning points of all fortunes.<p>
+            <p id="tatesays">Generate a random quote...<p>
         </div>
         <button class="new" id="new">NEW</button>
     </div>
 </body>
-<script src="js/jquery-3.6.3.min.js"></script>
 <script>
     $('#new').click(function(){
         $('#tatesays').text('loading...')
