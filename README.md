@@ -1,3 +1,6 @@
+# LINK-
+ranqugen.netlify.app
+
 # Random Quote Generator (RQG)
 
 Welcome to the Random Quote Generator (RQG) project! This project is a simple web application that displays a randomly generated quote to the user.
