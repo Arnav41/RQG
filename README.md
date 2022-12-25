@@ -1,5 +1,5 @@
 # LINK-
-ranqugen.netlify.app
+`ranqugen.netlify.app`
 
 # Random Quote Generator (RQG)
 
