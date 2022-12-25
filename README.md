@@ -1,4 +1,10 @@
-# Random Quote Generator (RQG)
+
+# [Random Quote Generator (RQG)](https://www.ranqugen.netlify.app/)
+
+[![GitHub license](https://img.shields.io/github/license/Arnav41/RQG)](https://github.com/Arnav41/RQG/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/Arnav41/RQG)](https://github.com/Arnav41/RQG/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Arnav41/RQG)](https://github.com/Arnav41/RQG/network)
+[![GitHub issues](https://img.shields.io/github/issues/Arnav41/RQG)](https://github.com/Arnav41/RQG/issues)
 
 Welcome to the Random Quote Generator (RQG) project! This project is a simple web application that displays a randomly generated quote to the user.
 
