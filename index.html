@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RandomQuoteGenerator</title>
+</head>
+<body>
+    <div id="Quote" class="Quote">
+        <div class="qote" id="qote">
+            <p id="tatesays">Ideas are the beginning points of all fortunes.Ideas are the beginning points of all fortunes.Ideas are the beginning points of all fortunes.Ideas are the beginning points of all fortunes.Ideas are the beginning points of all fortunes.Ideas are the beginning points of all fortunes.<p>
+        </div>
+        <button class="new" id="new">NEW</button>
+    </div>
+</body>
+<script src="js/jquery-3.6.3.min.js"></script>
+<script>
+    $('#new').click(function(){
+        $('#tatesays').text('loading...')
+        $.get("https://api.quotable.io/random", function(data) {
+            $('#tatesays').text(data.content)
+        });
+    });
+</script>
+</html>
